@@ -56,6 +56,11 @@ namespace EGC_Project
         {
             color = _r.RandomColor();
         }
+        public Color DiscoModeR(Randomizer _r)
+        {
+            color = _r.RandomColor();
+            return color;
+        }
 
         public void MorphPoz1()
         {

@@ -28,13 +28,19 @@ namespace EGC_Project
             int genR = r.Next(0, 255);
             int genG = r.Next(0, 255);
             int genB = r.Next(0, 255);
-
+            //Console.WriteLine(Convert.ToString(genR) +" "+ Convert.ToString(genG)+" "+ Convert.ToString(genB));
             Color col = Color.FromArgb(genR, genG, genB);
 
             return col;
         }
 
         public int RandomInt()
+        {
+            int i = r.Next(LOW_INT_VAL, HIGH_INT_VAL);
+
+            return i;
+        }
+        public int toStringRGB()
         {
             int i = r.Next(LOW_INT_VAL, HIGH_INT_VAL);
 

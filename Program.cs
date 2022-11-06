@@ -10,6 +10,8 @@ namespace EGC_Project
     {
         static void Main(string[] args)
         {
+            window3d wnd = new window3d();
+            wnd.Run(30.0, 0.0);
         }
     }
 }
